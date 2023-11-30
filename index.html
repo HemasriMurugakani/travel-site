@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JourneyJoy</title>
+    <link rel="stylesheet" href="index.css
+    
+    ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+    <style>
+        .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+        }
+        .row::after {
+        content: "";
+        clear: both;
+        display: table;
+        }
+        .row {
+        display: flex;
+        }
+
+        .column {
+        flex: 33.33%;
+        padding: 5px;
+        }
+        .button2 {font-size: 100px;}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <input type="checkbox" id="show-search">
+            <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+            <div class="content">
+                <div class="logo">
+                    <div class="logo"><a href="index.html"><img src="./images/logo.png" alt=""></a></div>
+                </div>
+                <ul class="links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#packages">Packages</a></li>
+                    <li><a href="#book">Book</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+            <form action="#" class="search-box">
+                <input type="text" placeholder="Search" required>
+                <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+            </form>
+        </nav>
+    </div>
+    <section class="home" id="home">
+        <div class="main-text">
+            <h3>Explore, Discover, Wander !
+                <br> <br>Your journey begins at JourneyJoy !
+            </h3>
+        <a href="#packages"><button id="home-btn">PACKAGES <i class="fa-solid fa-arrow-down"></i><button id="home-btn2"><i class="fa-sharp fa-solid fa-circle-play"></i></button></button></a>
+    </div>
+    </section>
+    <section class="services" id="services">
+        <div class="heading">
+            <h3>Services</h3>
+        </div>
+            <div class="card-content">
+
+                <div class="row">
+                    <i class="fas fa-globe-asia"></i>
+                    <div class="card-body">
+                        <h3>Across the Globe</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <i class="fas fa-plane"></i>
+                    <div class="card-body">
+                        <h3>Fleet Travel</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <i class="fas fa-hotel"></i>
+                    <div class="card-body">
+                        <h3>Wallet-Friendly Hotels</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <i class="fas fa-bullhorn"></i>
+                    <div class="card-body">
+                        <h3>Emergency Preparedness Guide</h3>
+                    </div>
+                </div>
+            </div>
+
+       
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_1280.jpg" alt="img">
+        </div>
+        <div class="about-info">
+            <center><h3 style="line-height: 40px;"> Welcome to our travel website, where we take pride in being your go-to guide for wanderlust adventures</h3>
+            <br>
+                <p style="letter-spacing: 2px ;line-height: 30px;">Our team of specialists has meticulously curated a selection of premier destinations and exclusive insights to guarantee an exceptional travel experience. Whether you're in search of sun-drenched beaches or exhilarating outdoor escapades, rest assured, we've got every aspect covered for you.</p>    </center>
+        </div>
+    </section>
+    <section class="Image Hub" id="Image Hub">
+        <div class="heading">
+            <h3 style="font-size: xx-large;color: rgb(5, 5, 5); text-align: center;">OUR IMAGE HUB <i class="fa-solid fa-arrow-down"></i></h3>
+        </div>
+        <br> <br>
+        <div class="Image Hub">
+            <div class="row">
+                <div class = "column">
+                <img src="https://i.pinimg.com/1200x/bf/b4/32/bfb4323f69cd2cbf982f7d9fcd055bc9.jpg" style="width: 100%; height: 80%;">
+            </div>
+                <div class="column">
+                <img src="https://d2rdhxfof4qmbb.cloudfront.net/wp-content/uploads/20180308191911/iStock-517665842.jpg" style="width: 100%;height:80%">
+            </div>
+            <div class="column">
+                <img src="https://assets-global.website-files.com/576fd5a8f192527e50a4b95c/5e820aad93fd4af06de61fdc_seeing%20the%20world%20as%20a%20couple.jpg" style="width: 100%;height: 80%">
+            </div>
+            <div class="column">
+                <img src="https://static.india.com/wp-content/uploads/2023/08/b-22.jpg" style="width: 100%;height: 80%">
+            </div>
+            <div class="column">
+                <img src="https://5.imimg.com/data5/CX/QH/PU/GLADMIN-11594091/selection-446-500x500.png" style="width: 100%;height: 80%">
+            </div>
+        </div>
+    </section>
+    <section class="packages" id="packages">
+        <div class="main-txt">
+            <h3>Packages</h3>
+        </div>
+        <div class="card-content">
+            <div class="row">
+                <img src="https://cdn-icons-png.flaticon.com/128/555/555637.png" alt="">
+                <div class="card-body">
+                    <h3>Jordan</h3>
+                    <div class="rating">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                    </div>
+                    <h5>Price $999</h5>
+                    <button>Book Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="https://cdn-icons-png.flaticon.com/128/5111/5111624.png" alt="">
+                     <div class="card-body">
+                        <h3>China</h3>
+                        <div class="rating">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                    </div>
+                    <h5>Price $999</h5>
+                    <button>Book Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="https://cdn-icons-png.flaticon.com/128/206/206600.png" alt="">
+                    <div class="card-body">
+                        <h3>Mexico</h3>
+                            <div class="rating">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                    </div>  
+                    <h5>Price $999</h5>
+                    <button>Book Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="https://cdn-icons-png.flaticon.com/128/206/206657.png" alt="">
+                    <div class="card-body">
+                        <h3>France</h3>
+                            <div class="rating">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                    </div>
+                    <h5>Price $999</h5>
+                    <button>Book Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="https://cdn-icons-png.flaticon.com/128/206/206682.png" alt="">
+                    <div class="card-body">
+                        <h3>Greece</h3>
+                            <div class="rating">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                    </div>
+                    <h5>Price $999</h5>
+                    <button>Book Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="https://cdn-icons-png.flaticon.com/128/206/206724.png" alt="">
+                    <div class="card-body">
+                        <h3>Spain</h3>
+                            <div class="rating">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                    </div>
+                    <h5>Price $999</h5>
+                    <button>Book Now</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="https://cdn-icons-png.flaticon.com/128/5111/5111656.png" alt="">
+                <div class="card-body">
+                    <h3>Turkey</h3>
+                    <div class="rating">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                    </div>
+                    <h5>Price $999</h5>
+                    <button>Book Now</button>
+                </div>
+            </div>
+            <button type="button2">More packages...</button>
+        </div>
+    </section>
+    <section class="book" id="book">
+        <div class="book-img">
+            <img src="https://flyustravels.com/blog/wp-content/uploads/2022/12/Book-Now.webp" alt="" height="550px" width="500px">
+        </div>
+        <div class="book-form">
+            <h5 style="font-size: x-large; color: rgb(6, 6, 6);">BOOK YOUR DESTINATION</h5>
+            <form action="#">
+                <input type="text" placeholder="Where To" required>
+                <input type="text" placeholder="How Many" required>
+                <input type="date" placeholder="Arrivals" required>
+                <input type="date" placeholder="Leaving" required>
+                <textarea name="" id="" cols="5" rows="5" placeholder="Enter Your Name & Details"></textarea>
+                <input type="submit" value="Book Now" class="submit" required>
+            </form>
+        </div>
+    </section>
+    <section class="reviews" id="reviews">
+        <div class="main-txt">
+            <h3 style="font-size: xx-large;">CUSTOMERS' COMMENTS</h3>
+        </div>
+        <div class="card-content">
+            <div class="row">
+                <h5><img src="https://cdn-icons-png.flaticon.com/128/4140/4140047.png" alt="">Sarah Johnson</h5>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>JourneyJoy truly lives up to its name! The tour package I booked with them was a delightful journey filled with joyous moments. </p>
+
+            </div>
+            <div class="row">
+                <h5><img src="https://cdn-icons-png.flaticon.com/128/4139/4139981.png" alt="">James Anderson</h5>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>The itinerary was well-planned, covering all the major attractions in the area. The accommodations were comfortable, and the tour guide was knowledgeable and friendly.</p>
+
+            </div>
+            <div class="row">
+                <h5><img src="https://cdn-icons-png.flaticon.com/128/4140/4140051.png" alt="">Tina Patel</h5>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>My family and I took a tour with JourneyJoy, and it was a fabulous experience. We're grateful for the wonderful memories created & we highly recommend JourneyJoy to fellow travelers.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Get In <span>Touch</span></h2>
+            <p style="line-height: 25px;">Embark on your next adventure with us! Whether you have questions about our enticing travel packages or need assistance customizing your dream vacation, our dedicated team is here to help. Don't hesitate to get in touch.</p>
+            <div class="list">
+                <li><a href="#">+1234567890</a></li>
+                <li><a href="#">journeyjoy@gmail.com</a></li>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <form action="#">
+                <input type="text" placeholder="Name" required>
+                <input type="number" placeholder="Phone" required>
+                <input type="email" placeholder="Email" required>
+                <textarea name="" id="" cols="35" rows="10" placeholder="Message" required></textarea>
+                <input type="submit" value="Send" class="submit" required>
+            </form>
+        </div>
+
+    </section>
+ 
+    <footer id="footer">
+        <div class="footer-content">
+            <div class="row" id="row1">
+                <a href="#" id="footer-logo">JourneyJoy</a>
+                <div class="socail-links">
+                    <br><br>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                </div>
+            </div>
+            <div class="row" id="row2">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Packages</a></li>
+                    <li><a href="#">Book</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Term & Condition</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="row" id="row4">
+                <h3>Download App</h3>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
